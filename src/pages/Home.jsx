@@ -3,6 +3,7 @@ import { Box } from '@mui/material';
 import HeroBanner from '../components/HeroBanner';
 import SearchExercises from '../components/SearchExercises';
 import Exercises from '../components/Exercises';
+// import Loader from '../components/Loader';
 
 const Home = () => {
   const [bodyPart, setBodyPart] = useState('all');
